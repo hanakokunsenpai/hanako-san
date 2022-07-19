@@ -1,0 +1,67 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("トイレの花子さん", "BloodTheme")
+
+local Tab = Window:NewTab("The Mimic")
+local Section = Tab:NewSection("KTollT")
+
+Section:NewButton("KTollT", "The Mimic", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/KTollT/main/README.md'))()
+end)
+
+Section:NewButton("Limited", "The Mimic", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/Limited/main/README.md'))()
+end)
+
+Section:NewButton("Limited Two", "The Mimic", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/LimitedTwo/main/README.md'))()
+end)
+
+Section:NewButton("Lantern", "The Mimic", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/KTollT/Lantern/main/README.md'))()
+end)
+
+local Section = Tab:NewSection("POOM HUB")
+
+Section:NewButton("April Fools", "The Mimic", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptAutoFarmMimicPoomHubLimited/main/.Lua"))()
+end)
+
+Section:NewButton("The Mimic Book II", "The Mimic", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTheMimicPoomHubBookIIFirst/main/.Lua"))()
+end)
+
+Section:NewButton("Halloween Trials", "The Mimic", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/POOMHUBHalloweenScript/main/.Lua"))()
+end)
+
+Section:NewButton("Revamp I", "The Mimic", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/TheMimicBook1RevampScript/main/.Lua"))()
+end)
+
+local Section = Tab:NewSection("XVAS")
+
+Section:NewButton("Book I", "The Mimic", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XITHHUB/SCRIPT/main/README.md"))()
+end)
+
+Section:NewButton("Book II", "The Mimic", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XITHHUB/TheMimic/main/README.md"))()
+end)
+
+local Section = Tab:NewSection("Noob Hub")
+
+
+
+local Tab = Window:NewTab("Others")
+local Section = Tab:NewSection("Others")
+
+Section:NewButton("Infinite Yield", "FE Admin Commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Section:NewKeybind("Toggle UI", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Made By shxdxwstxr#6155")
